@@ -1,0 +1,65 @@
+# --- Python Virtual Environment ---
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+
+# --- Byte-compiled / Optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Large Datasets & Cropped Data ---
+data/
+classifier_data/
+
+# --- Trained Weights / Local Models ---
+models/
+yolov8*.pt
+best_classifier.pth
+class_names.json
+
+# --- Log Files ---
+*.log
+logs/
+
+# --- System-specific files ---
+.env
+.roboflow/
+
+# --- Phase B generated artefacts (machine-specific absolute paths) ---
+experiments/yolo_phase_b/
+weights/
+
+# --- Migration bundle / transfer artefacts ---
+fyp-assets.tar
+fyp-assets.tar.sha256
+__MACOSX/
+JediOrganismDetectionDataset/
+
+# Presentation figures are regenerable from make_presentation_figures.py
+experiments/presentation_figures/
+
+# Generated PDF guide (regenerable from make_results_pdf.py)
+experiments/RESULTS_GUIDE.pdf
+
+# Filled review deck (regenerable from paper/fill_deck.py)
+paper/Team_32_Tag_4_Phase_2_FILLED.pptx
+
+runs/
+outputs/
+
+# Local AI/editor configuration
+.claude/
